@@ -3,7 +3,7 @@
 This doc shows how to create llvm dev environment using conda and VSCode as an
 IDE.
 
-## Preretirement
+## Prerequistes
 
 - [Miniforge3](https://conda-forge.org/miniforge/)
 - [VSCode](https://code.visualstudio.com)
@@ -35,6 +35,10 @@ Make sure to update `cmakePath` at `settings.json` and conda path at
 `.vscode` is set to configure cmake project at `./build/Debug` folder, that
 means you can configure it from vscode and build it from terminal (handy to set
 task to build on remote machine without being connected there).
+
+## Building llvm using CMake and VSCode
+
+
 
 ## CMake commands
 
